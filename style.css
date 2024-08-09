@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+img{
+    width: 70px;
+    padding-right: 15px;
+}
+
+.cardcontainer{
+    width: 380px;
+    background-color: white;
+    border: 3px solid ;
+    border-radius: 18px;
+    display: block;
+    margin: 200px auto;
+    overflow: hidden;
+
+}
+
+.cardheader{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    background-color: rgb(243, 235, 220);
+
+}
+
+.cardbody{
+    background-color: rgb(248, 248, 227);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardaddress{
+    font-size: 1rem;
+    color: black;
+}
+
+.cardimage{
+    float: right;
+}
+
+.cardfooter{
+    padding-top: 10px;
+    padding-bottom:10px;
+    padding-left: 20px;
+    background-color: lightgoldenrodyellow;
+}
